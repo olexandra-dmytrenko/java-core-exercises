@@ -183,7 +183,7 @@ public class LinkedList<T> implements List<T> {
         return currentEl;
     }
 
-    private class Node<T> {
+    private static class Node<T> {
 
         Node<T> previous;
         Node<T> next;
