@@ -15,7 +15,9 @@ import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.*;
 
 /**
- * Implement methods using Stream API
+ * Стримы - декларативный подход. Паскаль - императивный
+ * Отличие стрима от коллекции, что стрима нету ни в какой момент времени на компе, а коллекция есть и обрабатывается комплексно
+ * boxing - int -> Integer, unboxing Integer -> int
  */
 public class AccountAnalytics {
     private Collection<Account> accounts;
