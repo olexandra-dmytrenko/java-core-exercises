@@ -26,6 +26,7 @@
         <module>account-data</module>
         <module>sum-of-squares</module>
         <module>crazy-lambdas</module>
+        <module>bytecode</module>
     </modules>
 
     <dependencies>
